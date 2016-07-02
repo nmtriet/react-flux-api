@@ -1,8 +1,6 @@
 ## Overview
 
-Get data from API: http://api.randomuser.me/?results=10
-
-And display them by React
+Get data from API: http://api.randomuser.me/?results=10. And display them by React
 
 ![](demo.png)
 
