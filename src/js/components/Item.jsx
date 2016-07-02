@@ -5,8 +5,8 @@ class Item extends React.Component {
     render() {
         return (
             <li key={this.props.key}>
-            	<p><label>Name:</label> {this.props.data.user.name.title + '. ' + this.props.data.user.name.first + ' ' + this.props.data.user.name.last}</p>
-            	<p><label>Gender:</label> {this.props.data.user.gender}</p>
+            	<p><label>Name:</label> {this.props.data.name.title + '. ' + this.props.data.name.first + ' ' + this.props.data.name.last}</p>
+            	<p><label>Gender:</label> {this.props.data.gender}</p>
             </li>
         );
     }

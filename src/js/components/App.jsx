@@ -39,9 +39,9 @@ class App extends React.Component {
 
 		return (
 			<div>
-				<button onClick={this._getData}>Get Data</button>
+				<button className="btn btn-info" onClick={this._getData}>Get Data</button>
 
-				<ul id="main-list">
+				<ul id="main-list" style={{marginTop: '10px'}}>
 					{list}
 				</ul>
 			</div>
